@@ -10,7 +10,7 @@ const Dashboard = () => {
       {/* Sidebar */}
       <aside className={`bg-gray-900 text-white w-64 p-5 transition-all ${isSidebarOpen ? "block" : "hidden"} md:block`}>
         <div className="flex items-center justify-between pb-4 border-b border-gray-700">
-          <h2 className="text-xl font-bold">Fitness Tracker</h2>
+          <h2 className="text-xl font-bold">LSU Fitness Tracker</h2>
           <button className="md:hidden text-gray-400" onClick={() => setIsSidebarOpen(false)}>✖</button>
         </div>
 
