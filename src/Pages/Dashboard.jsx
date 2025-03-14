@@ -40,21 +40,12 @@ const Dashboard = () => {
                 <span>Goals</span>
               </NavLink>
             </li>
-            <li>
-              <NavLink to="/dashboard/settings" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-700">
-                <Settings size={20} />
-                <span>Settings</span>
-              </NavLink>
-            </li>
           </ul>
         </nav>
 
         {/* Footer */}
         <div className="mt-auto pt-6 border-t border-gray-700">
-          <NavLink to="/dashboard/profile" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-700">
-            <UserCircle size={20} />
-            <span>Profile</span>
-          </NavLink>
+       
           <button className="flex items-center gap-3 p-3 w-full text-red-500 hover:bg-gray-700">
             <LogOut size={20} />
             <span>Logout</span>
