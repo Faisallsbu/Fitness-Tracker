@@ -7,7 +7,7 @@ import Home from "./Pages/Home";
 import Workout from "./Pages/Workout";
 import Progress from "./Pages/Progress";
 import Goals from "./Pages/Goals";
-import PrivateRoute from "./components/PrivateRoute";
+import PrivateRoute from "./Components/PrivateRoute";
 
 export const router = createBrowserRouter([
   { path: "/", element: <App /> },
